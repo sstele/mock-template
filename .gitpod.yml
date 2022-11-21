@@ -2,7 +2,6 @@
 tasks:
   - init: ./gradlew build
   - init: chmod +x gradlew
-  - init: sdk install java
   - command: ./gradlew bootRun
 
 
