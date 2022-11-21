@@ -1,6 +1,5 @@
 
 tasks:
-  - init: sdk install java
   - init: ./gradlew build
   - init: chmod +x gradlew
   - command: ./gradlew bootRun
@@ -15,3 +14,6 @@ vscode:
     - redhat.java
     - vscjava.vscode-java-test
     - vscjava.vscode-java-dependency
+  
+image:
+  file: .gitpod.Dockerfile
